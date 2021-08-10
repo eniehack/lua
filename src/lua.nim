@@ -59,8 +59,8 @@ else:
       LIB_NAME* = "liblua(|5.1|5.0).so(|.0)"
   else:
     const 
-      NAME* = "lua(|5.1|5.0).dll"
-      LIB_NAME* = "lua(|5.1|5.0).dll"
+      NAME* = "lua(|51|50).dll"
+      LIB_NAME* = "lua(|51|50).dll"
 
 const 
   VERSION* = "Lua 5.1"
