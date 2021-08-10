@@ -27,7 +27,7 @@ when not defined(useLuaJIT):
       LIB_NAME* = "liblua(5.2.so|.so.5.2)"
   else:
     const 
-      LIB_NAME* = "lua5.2.dll"
+      LIB_NAME* = "lua52.dll"
 else:
   when defined(MACOSX):
     const
